@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta http-equiv="refresh" content="60" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>
+		KOKAR
+	</title>
+	<!--bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+	<style>
+		body,
+		html {
+			height: 100%;
+			background-color: royalblue;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		}
+	</style>
+
+	<!-- Form Login -->
+	<div class="container shadow bg-white rounded border" style="max-width: 280px; margin-top: 8rem;">
+		<!-- <div class="container-box shadow-lg"> -->
+		<form class="form-signin border-primary w-auto" action="login.php" method="post">
+			<img class="card-img-top" src="img/logo.svg" style="max-height: 5rem;" alt="responsive">
+			<p>
+				<h1 class="h4 mb-3 font-weight-normal" align="center">Please Sign In</h1>
+			</p>
+			<input name="nik" type="text" id="inputNik" class="form-control" placeholder="Masukan NIK" required
+				autofocus><br>
+			<input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password"
+				required><br>
+			<!-- <p>
+				<select class="custom-select custom-select-sm" name="akses">
+					<option selected>Pilih Posisi</option>
+					<option value="ac">Area Coodinator</option>
+					<option value="am">Area Manager</option>
+					<option value="admin">Administrator</option>
+				</select>
+			</p> -->
+
+			<button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+			<p class="mt-5 mb-3 text-muted" align="center">&copy; Copyright 2019</p>
+		</form>
+	</div>
+
+
+
+</body>
+
+</html>
